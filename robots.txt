@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mavoixecrite.github.io/ma-voix-ecrite/sitemap.xml
