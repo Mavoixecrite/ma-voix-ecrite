@@ -1,6 +1,6 @@
 # Essayer Ma Voix Écrite
 
-Nous cherchons à comprendre si l’application facilite les échanges d’adultes privés de voix après une intervention de la gorge. L’essai est volontaire, peut être arrêté à tout moment et ne nécessite aucune information médicale.
+Nous cherchons à comprendre si l’application facilite les échanges de personnes qui ont besoin d’un autre moyen de s’exprimer. L’essai est volontaire, peut être arrêté à tout moment et ne nécessite aucune information médicale.
 
 ## Avant de commencer
 
@@ -27,7 +27,7 @@ Vous pouvez aussi comparer avec votre moyen habituel : papier, téléphone, autr
 - `[MAVOIX-RETOUR] [IDEE]` : suggestion ;
 - `[MAVOIX-RETOUR] [CONTRIB]` : proposition d’aide.
 
-Indiquez la version de l’application et, si utile, téléphone ou tablette. Aucun nom de patient, diagnostic, enregistrement audio ou capture contenant des données personnelles n’est nécessaire. Les phrases personnelles et les sauvegardes ne doivent pas être jointes.
+Indiquez la version de l’application et, si utile, téléphone ou tablette. Aucun nom de personne, diagnostic, enregistrement audio ou capture contenant des données personnelles n’est nécessaire. Les phrases personnelles et les sauvegardes ne doivent pas être jointes.
 
 ## Pour les associations et professionnels
 

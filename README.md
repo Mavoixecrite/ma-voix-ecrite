@@ -1,10 +1,14 @@
 # Ma Voix Écrite
 
-Application Android gratuite, sans publicité et sans compte pour aider les adultes privés de voix après une opération de la gorge à communiquer au quotidien.
+Application Android gratuite, sans publicité et sans compte pour aider à communiquer lorsque parler est difficile ou impossible.
 
 Projet bénévole en essai, présenté par l’**Équipe Ma Voix Écrite**. Son utilité pour d’autres personnes est à construire avec leurs retours ; aucun bénéfice clinique démontré n’est revendiqué.
 
 **[Présentation et installation](https://mavoixecrite.github.io/ma-voix-ecrite/)** · **[Télécharger l’APK](https://mavoixecrite.github.io/ma-voix-ecrite/MaVoix.apk)**
+
+## Pour qui ?
+
+Pour les personnes qui ont besoin d’un autre moyen de s’exprimer, ponctuellement ou durablement. La présentation ne fixe pas de limite d’âge : les phrases, le niveau de lecture et l’accès tactile sont à adapter à chacun, avec un proche ou un professionnel si nécessaire. L’application n’a pas été évaluée pour tous les besoins ; elle ne convient pas automatiquement à toutes les situations.
 
 ## Ce que propose l’application
 
@@ -25,13 +29,13 @@ Ouvrez **Voix**, testez une phrase, puis recommencez en mode avion. Si la voix m
 
 Pour une mise à jour, installez par-dessus la version existante sans désinstaller : la continuité de signature est nécessaire pour conserver les données. Une sauvegarde locale est recommandée avant la mise à jour.
 
-Version distribuée : **0.8.1**. L’empreinte de l’APK est publiée dans [SHA256.txt](SHA256.txt).
+Version distribuée : **0.8.2**. L’empreinte de l’APK est publiée dans [SHA256.txt](SHA256.txt).
 
 ## Participer aux premiers essais
 
-[Guide d’essai et questions de retour](ESSAI-ET-RETOURS.md) · [Fiche patients et proches](FICHE-PATIENT-ET-AIDANTS.md) · [Confidentialité](CONFIDENTIALITE.md)
+[Guide d’essai et questions de retour](ESSAI-ET-RETOURS.md) · [Fiche pour les personnes concernées et leurs proches](FICHE-PATIENT-ET-AIDANTS.md) · [Confidentialité](CONFIDENTIALITE.md)
 
-Contact : **mavoixecrite@proton.me**. Les objets `[MAVOIX-RETOUR] [USAGE|BUG|IDEE|CONTRIB]` facilitent le tri. N’envoyez ni dossier médical, ni nom de patient, ni phrases privées. Les signalements GitHub sont publics.
+Contact : **mavoixecrite@proton.me**. Les objets `[MAVOIX-RETOUR] [USAGE|BUG|IDEE|CONTRIB]` facilitent le tri. N’envoyez ni dossier médical, ni nom de personne, ni phrases privées. Les signalements GitHub sont publics.
 
 ## Sources et compilation
 

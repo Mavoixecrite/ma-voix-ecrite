@@ -3,11 +3,13 @@
 Ma Voix Écrite est un projet bénévole porté publiquement par l’Équipe Ma Voix Écrite.
 Contact du projet : **mavoixecrite@proton.me**.
 
+Chaque nouvelle installation reçoit seulement les phrases de départ de l’application. Les phrases tapées, l’historique, les mots appris et les cases personnalisées d’une autre personne ne sont pas inclus dans l’APK distribué.
+
 L’écriture, les phrases personnalisées et l’historique sont conservés sur l’appareil. Une exportation crée un fichier que vous choisissez vous-même de conserver ou de partager. Protégez l’accès à votre téléphone ou tablette : une personne qui y accède peut lire les phrases enregistrées.
 
 La lecture à voix haute utilise les voix d’Android. Une voix française hors ligne peut nécessiter un téléchargement initial dans les réglages Android. Le clavier et le moteur vocal sont des composants distincts : leurs propres réglages de confidentialité dépendent du fournisseur choisi.
 
-Les retours sont facultatifs. Un e-mail transmet à la messagerie du projet votre adresse d’expéditeur et le contenu que vous choisissez d’envoyer. Ne joignez ni nom de patient, ni diagnostic, ni dossier médical, ni sauvegarde de phrases personnelles. Vous pouvez utiliser un pseudonyme. Aucun retour ne vaut consentement à publier votre témoignage.
+Les retours sont facultatifs. Un e-mail transmet à la messagerie du projet votre adresse d’expéditeur et le contenu que vous choisissez d’envoyer. Ne joignez ni nom de personne, ni diagnostic, ni dossier médical, ni sauvegarde de phrases personnelles. Vous pouvez utiliser un pseudonyme. Aucun retour ne vaut consentement à publier votre témoignage.
 
 Pour demander la suppression d’un échange, écrivez à l’adresse du projet. Les échanges sont utilisés pour comprendre les difficultés et améliorer l’application ; aucun délai de réponse n’est garanti.
 

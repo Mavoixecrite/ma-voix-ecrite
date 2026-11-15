@@ -6,7 +6,7 @@ import java.util.*;
 
 final class CardStore {
     static final String[] CATEGORIES={"Essentiel","Besoins","Discussion"};
-    static final String DEFAULT_PRESENTATION="Je ne peux pas parler, mais je vous entends. Laissez-moi le temps d’écrire.";
+    static final String DEFAULT_PRESENTATION="Je communique avec cette application. Merci de me laisser le temps de répondre.";
     static final int MAX_CARDS=200;
     static final class Card {
         String id,category,text,icon;boolean favorite;final List<String> choices=new ArrayList<>();

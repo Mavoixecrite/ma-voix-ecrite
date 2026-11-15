@@ -1,6 +1,8 @@
-# Ma Voix Écrite — patients et proches
+# Ma Voix Écrite — personnes concernées et proches
 
-Une application Android gratuite, sans publicité et sans compte, créée pour aider un adulte privé de voix après une opération de la gorge.
+Une application Android gratuite, sans publicité et sans compte, pour communiquer lorsque parler est difficile ou impossible.
+
+Il n’y a pas de limite d’âge dans la présentation du projet. Choisissez les phrases et les réglages avec la personne concernée, selon sa lecture, sa compréhension et ses possibilités de toucher l’écran. Un accompagnement peut être nécessaire.
 
 ## Communiquer de trois façons
 
@@ -20,7 +22,7 @@ Le bouton Appeler fait sonner l’appareil à proximité. Il ne téléphone pas 
 
 ## Donner un avis
 
-Écrivez à **mavoixecrite@proton.me** ou utilisez **Options → Donner mon avis**. Le message peut être relu avant envoi. Indiquez seulement ce qui a aidé ou bloqué, sans nom de patient, diagnostic ou phrases privées.
+Écrivez à **mavoixecrite@proton.me** ou utilisez **Options → Donner mon avis**. Le message peut être relu avant envoi. Indiquez seulement ce qui a aidé ou bloqué, sans nom de personne, diagnostic ou phrases privées.
 
 L’application est un projet bénévole en essai. Les échanges avec l’équipe ne sont pas un service de soins et ne garantissent pas de réponse immédiate.
 
