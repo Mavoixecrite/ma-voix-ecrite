@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'fr.mavoixecrite'
+    compileSdk 35
+    defaultConfig { applicationId 'fr.mavoixecrite'; minSdk 26; targetSdk 35; versionCode 10; versionName '0.8.1' }
+    buildFeatures { buildConfig true }
+
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    testOptions { unitTests.includeAndroidResources = true }
+    defaultConfig { testInstrumentationRunner 'fr.mavoixecrite.SmokeRunner' }
+    if (project.hasProperty('uiPreview')) { defaultConfig { applicationIdSuffix '.preview'; testInstrumentationRunner 'fr.mavoixecrite.PreviewRunner' } }
+}
+dependencies { testImplementation 'junit:junit:4.13.2'; testImplementation 'org.robolectric:robolectric:4.14.1' }
+
+
+

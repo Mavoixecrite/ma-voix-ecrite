@@ -1,0 +1,3 @@
+Données lexicales : Lexique 3.83, Boris New et Christophe Pallier et collaborateurs, https://www.lexique.org/databases/Lexique383/Lexique383.tsv
+Licence : Creative Commons Attribution – Partage dans les mêmes conditions 4.0, https://creativecommons.org/licenses/by-sa/4.0/
+Adaptation MaVoixEcrite, 15 novembre 2026 : sélection des formes simples, index sans accents, fréquence maximale films/livres, compression gzip. Cet extrait adapté est distribué sous la même licence CC BY-SA 4.0. Aucune validation ou approbation de cette application par les auteurs n’est revendiquée.

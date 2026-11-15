@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ma Voix Écrite — Application Android gratuite pour parler en un appui</title>
+  <style>
+    :root {
+      --bg: #F4F3EC;
+      --ink: #1D3535;
+      --muted: #526665;
+      --teal: #1D635F;
+      --border: #C6D4CE;
+      --urgent-bg: #FFF1E3;
+      --urgent-border: #B84A27;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+    header {
+      background: #fff;
+      border: 2px solid var(--border);
+      border-radius: 24px;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+    .badge {
+      display: inline-block;
+      background: #DFEDE2;
+      color: var(--teal);
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin: 0 0 10px;
+      color: var(--ink);
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      color: var(--muted);
+      margin: 0 0 22px;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--teal);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.15rem;
+      padding: 16px 26px;
+      border-radius: 16px;
+      border: 2px solid var(--teal);
+    }
+    .btn-secondary {
+      display: inline-block;
+      background: #E6EDE9;
+      color: var(--teal);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      padding: 15px 22px;
+      border-radius: 16px;
+      border: 1.5px solid var(--border);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .card {
+      background: #fff;
+      border: 1.6px solid var(--border);
+      border-radius: 20px;
+      padding: 22px;
+    }
+    .card h2, .card h3 {
+      margin-top: 0;
+      color: var(--ink);
+    }
+    .screenshots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 24px 0;
+    }
+    .screenshots figure {
+      margin: 0;
+      background: #fff;
+      border: 1.6px solid var(--border);
+      border-radius: 20px;
+      padding: 14px;
+      text-align: center;
+    }
+    .screenshots img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    .screenshots figcaption {
+      margin-top: 10px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+    .notice {
+      background: var(--urgent-bg);
+      border: 1.8px solid var(--urgent-border);
+      border-radius: 18px;
+      padding: 18px 22px;
+      margin-top: 24px;
+      font-size: 0.95rem;
+    }
+    code {
+      background: #E6EDE9;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 0.9em;
+    }
+  a:focus-visible,button:focus-visible{outline:3px solid #B84A27;outline-offset:4px} .grid,.screenshots{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))} @media(max-width:480px){header{padding:20px}h1{font-size:1.9rem}.container{padding:16px 12px 36px}.btn-primary,.btn-secondary{width:100%;text-align:center}} </style>
+</head>
+<body>
+<main class="container">
+  <header>
+    <span class="badge">Gratuite · Sans publicité · Sans compte · Code libre</span>
+    <h1>Ma Voix Écrite</h1>
+    <p class="subtitle">Des phrases à toucher, du texte à faire lire : une aide à la communication pour les adultes privés de voix après une opération de la gorge.</p>
+    <div class="cta-row">
+      <a class="btn-primary" href="MaVoix.apk" download>Télécharger pour Android</a>
+      <a class="btn-secondary" href="#installation">Comment installer ?</a>
+      <a class="btn-secondary" href="#essai">Donner un avis</a>
+    </div>
+    <p>Un seul APK, deux interfaces : téléphone et tablette. Android 8.0 ou plus récent.<br>Version 0.8.1 · Projet bénévole en essai · Équipe Ma Voix Écrite</p>
+  </header>
+  <section class="grid" aria-label="Communiquer au quotidien">
+    <article class="card"><h2>Toucher pour parler</h2><p>Les familles Essentiel, Besoins et Discussion rassemblent les phrases du quotidien. Les favoris gardent vos expressions à portée de main.</p></article>
+    <article class="card"><h2>Écrire à votre rythme</h2><p>Des débuts de phrases et des suggestions locales vous aident à composer. Relisez votre texte, puis touchez Parler ou Afficher en grand.</p></article>
+    <article class="card"><h2>Adapter à vos habitudes</h2><p>Personnalisez les cases et les mots. Le message en grand peut être retourné vers la personne en face. Aucun microphone ni enregistrement audio.</p></article>
+  </section>
+  <section class="card" id="installation">
+    <h2>Installer, préparer la voix, essayer</h2>
+    <ol>
+      <li>Téléchargez <a href="MaVoix.apk" download>l’APK officiel</a> sur votre appareil Android et ouvrez le fichier.</li>
+      <li>Si Android le demande, autorisez temporairement votre navigateur à installer cette application. Retirez cette autorisation après l’installation. N’ignorez pas un avertissement de sécurité inattendu.</li>
+      <li>Ouvrez Voix et essayez une phrase. Si nécessaire, installez une voix française hors ligne dans les réglages de synthèse vocale Android. Ce téléchargement initial peut demander Internet.</li>
+      <li>Refaites l’essai en mode avion. Vous pouvez aussi afficher le texte en grand pour le faire lire.</li>
+    </ol>
+    <p>Les accents disponibles dépendent des voix installées sur votre appareil. La sonnerie Appeler attire l’attention à proximité ; elle ne téléphone pas et ne garantit pas qu’un proche entendra.</p>
+    <p>Pour mettre à jour, installez par-dessus la version précédente sans la désinstaller. Faites d’abord une sauvegarde depuis Options. <a href="SHA256.txt">Empreinte de l’APK</a>.</p>
+    <figure style="margin:20px 0"><img src="QR-CODE-INSTALLATION-MAVOIX.png" width="160" height="160" alt="QR code vers le téléchargement officiel de Ma Voix Écrite"><figcaption>Scannez depuis le téléphone ou la tablette Android.</figcaption></figure>
+  </section>
+  <section id="essai" class="card" style="margin-top:24px">
+    <h2>Votre avis peut aider</h2>
+    <p>Créée à partir d’un besoin concret après une opération de la gorge, l’application doit maintenant être essayée avec d’autres personnes. Aucun bénéfice clinique démontré n’est revendiqué.</p>
+    <p>Avez-vous réussi à l’installer ? Trouvé une phrase facilement ? Été compris ? Choisi de la réutiliser ? <a href="ESSAI-ET-RETOURS.md">Voir le guide d’essai</a>.</p>
+    <div class="cta-row">
+      <a class="btn-primary" href="mailto:mavoixecrite@proton.me?subject=%5BMAVOIX-RETOUR%5D%20%5BUSAGE%5D">Préparer un retour par e-mail</a>
+      <a class="btn-secondary" href="mailto:mavoixecrite@proton.me?subject=%5BMAVOIX-RETOUR%5D%20%5BBUG%5D">Signaler un problème</a>
+    </div>
+    <p>Contact : <a href="mailto:mavoixecrite@proton.me">mavoixecrite@proton.me</a>. Le retour est volontaire. N’envoyez ni nom de patient, ni diagnostic, ni dossier médical, ni sauvegarde de phrases personnelles. Vous relisez le message avant envoi.</p>
+    <p>Professionnels et associations : nous cherchons des avis d’usage, sans présumer d’un partenariat ni d’une validation. Aucun délai de réponse n’est garanti.</p>
+  </section>
+  <aside class="notice"><strong>Confidentialité et limites</strong><p>L’historique et la personnalisation restent sur l’appareil. Un fichier exporté ou un e-mail quitte l’appareil uniquement à votre initiative. Les services externes que vous choisissez, notamment clavier et messagerie, ont leurs propres règles.</p><p>La version proposée n’accède ni au microphone ni à Internet. Le site est hébergé par GitHub Pages et n’intègre ni suivi d’audience ni génération externe du QR code. <a href="CONFIDENTIALITE.md">Détails sur la confidentialité</a>.</p><p>Aide à la communication quotidienne, sans validation clinique revendiquée. Elle ne remplace ni un suivi professionnel ni un système d’appel d’urgence. Gardez un autre moyen de communiquer.</p></aside>
+  <footer style="margin-top:24px"><p>Équipe Ma Voix Écrite · <a href="https://github.com/Mavoixecrite/ma-voix-ecrite">Sources et contributions</a> · <a href="FICHE-PATIENT-ET-AIDANTS.md">Fiche patients et proches</a> · <a href="LICENSE">Code MIT</a><br>Données lexicales Lexique 3.83 : CC BY-SA 4.0, attributions dans les sources.</p></footer>
+</main>
+</body>
+</html>

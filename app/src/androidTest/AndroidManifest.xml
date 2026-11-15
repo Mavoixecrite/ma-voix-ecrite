@@ -1,0 +1,1 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"><instrumentation android:name="fr.mavoixecrite.ProbeRunner" android:targetPackage="fr.mavoixecrite" /></manifest>

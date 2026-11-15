@@ -1,0 +1,5 @@
+<resources><item name="message_input" type="id"/><item name="display_message" type="id"/><string name="storage_error">Les phrases enregistrées ne peuvent pas être lues. Elles ne seront pas écrasées. Vous pouvez toujours communiquer. %1$s</string><item name="speak_message" type="id"/><string name="spoken_not_saved">Phrase prononcée, mais non mémorisée</string><string name="preparing_text">Préparation du texte…</string><item name="choice_card" type="id"/><item name="family_scroll" type="id"/><item name="trace_panel" type="id"/><item name="trace_message" type="id"/><item name="conversation_scroll" type="id"/><item name="conversation_reply" type="id"/><item name="interlocutor_draft" type="id"/></resources>
+
+
+
+
